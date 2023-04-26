@@ -14,27 +14,27 @@
 #let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
 
 #grid(
-  columns: (1fr, 1fr),text(
-    size: 38pt,
+  columns: (1fr, 1fr),
+  text(
+    size: 40pt,
     font: ("Helvetica Neue"))[
       Brett Evrist
   ]
   ,
   align(right)[
-    (909) 230-0226 \
-    brett\@brettevrist.net \
-    #link("https://github.com/skyzh")[https://evri.st]
+    (909) 230-0226 #h(1pt) #box(image(height: 0.7em,"images/phone.svg")) #h(1pt) \
+    brett\@brettevrist.net #box(image(height: 0.7em,"images/email.svg")) \
+    #link("https://evri.st")[https://evri.st] #box(image(height: 0.7em,"images/website.svg"))
   ]
 )
 
-Computer Science and Cybersecurity professional focused on DevSecOps, CI/CD Systems, Test Automation, Containerized Software, and Security. Skilled in Software Development, Cloud Computing, Kubernetes, and Provisioning/Configuration Management. Interested in a DevSecOps or Software
-Engineering positions.
+Computer Science and Cybersecurity professional focused on DevSecOps, CI/CD Systems, Test Automation, Containerized Software, and Security. Skilled in Software Development, Cloud Computing, Kubernetes, Release Automation, and Provisioning/Configuration Management. Interested in a DevSecOps or Software Engineering positions.
 
 == Technology Skills
 #chiline()
 
-- *Languages:* Golang, Python 3, Bash, C\#, C++, SQL, Dart.
-- *Technologies:* Kubernetes, Openshift, Docker, Ansible, Terraform, git, MongoDB, PostgresSQL.
+- *Languages:* Golang, Python 3, Bash, C\#, C++, SQL, Java, Javascript, Dart.
+- *Technologies:* Kubernetes, Openshift, Docker, Ansible, Terraform, Git, MongoDB, PostgresSQL.
 - *Platforms:* Google Cloud, AWS, GitLab, Azure DevOps.
 - Experience with Agile & rapid prototyping techniques.
 - Virtual Reality programming and game design (Unreal Engine 5, Unity).
@@ -55,17 +55,17 @@ Engineering positions.
 == Employment
 #chiline()
 
-*Lawrence Livermore National Laboratory* #h(3pt)--#h(3pt) DevOps Engineer #h(1fr) 2333/23 -- 2333/23 \
+*Lawrence Livermore National Laboratory* #h(3pt)--#h(3pt) DevOps Engineer #h(1fr) September 2021 -- Present \
 - Worked on large scale distributed Kubernetes compute platform to run large machine learning and statistical models.
 - Built systems for continuous integration, deployment & release automation of software and infrastructure.
 - Developed Kubernetes operator for interfacing with High Performance Computing clusters.
-*MITRE Corporation* #h(3pt)--#h(3pt) Software Engineer #h(1fr) July 2020 -- Present \
+*MITRE Corporation* #h(3pt)--#h(3pt) Software Engineer #h(1fr) July 2020 -- September 2021 \
 - Built container focused CI/CD and Security pipelines for a wide range of software projects, advised developers on container development and microservice best practices.
 - Developed and deployed microservice software and automation toolchains involving Kubernetes.
 - Packaged legacy non-cloud-native applications inside containers for deployment in Kubernetes.
 *MITRE Corporation* #h(3pt)--#h(3pt) Software Engineering Intern #h(1fr) June 2019 -- July 2020 \
 - Built software CI/CD pipelines and deployed automated software build systems. Performed automated server deployment and configuration. Performed academic trade study on networking protocols and their functionality in degraded wireless networking environments.
-*CSU San Bernardino* #h(3pt)--#h(3pt) Cyber Security Research Lab Technician #h(1fr) August 2018 -- June 2019 \
+*CSU San Bernardino* #h(3pt)--#h(3pt) Cyber Security Research Lab Technician #h(1fr) August 2018 -- June 2020 \
 - Present Technology Seminars for both students and faculty.
 - Monitor and mentor students in the research lab, perform Floor Marshal duties, conduct research and development on new technologies and systems for the university.
 *Brad Anderson Enterprises* #h(3pt)--#h(3pt)  Web Administrator#h(1fr) March 2016 -- January 2018 \
@@ -76,9 +76,9 @@ Engineering positions.
 == Honors & Awards
 #chiline()
 
-National Science Foundation Scholarship For Service CyberCorps #h(1fr) June 2018 \
-Boy Scouts of America Eagle Scout Rank -- Redlands Troop 11 #h(1fr) May 2014 \
-FIRST Robotics Competition Regional Winner #h(1fr) 2013 & 2014 \
+National Science Foundation Scholarship For Service CyberCorps \
+Boy Scouts of America Eagle Scout Rank -- Redlands Troop 11 \
+FIRST Robotics Competition Regional Winner \
 
 == Projects
 #chiline()
