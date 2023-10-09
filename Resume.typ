@@ -1,17 +1,13 @@
 #show heading: set text(font: "Helvetica Neue")
 
-#set text(font: (
-  "Helvetica Neue",
-))
+#set text(font: ("Helvetica Neue",))
 
 #show link: underline
-#set page(
- margin: (x: 0.9cm, y: 1.3cm),
-)
+#set page(margin: (x: 0.9cm, y: 1.3cm))
 // #set par(justify: true)
 #set list(marker: "-")
 
-#let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
+#let dividerLine() = {v(-3pt); line(length: 100%); v(-5pt)}
 
 #grid(
   columns: (1fr, 1fr),
@@ -19,19 +15,18 @@
     size: 40pt,
     font: ("Helvetica Neue"))[
       Brett Evrist
-  ]
-  ,
+  ],
   align(right)[
     (909) 230-0226 #h(1pt) #box(image(height: 0.7em,"images/phone.svg")) #h(1pt) \
     brett\@brettevrist.net #box(image(height: 0.7em,"images/email.svg")) \
     #link("https://evri.st")[https://evri.st] #box(image(height: 0.7em,"images/website.svg"))
-  ]
+  ],
 )
 
-Computer Science and Cybersecurity professional focused on DevSecOps, CI/CD Systems, Test Automation, Containerized Software, and Security. Skilled in Software Development, Cloud Computing, Kubernetes, Release Automation, and Provisioning/Configuration Management. Interested in a DevSecOps or Software Engineering positions.
+Computer Science and Cybersecurity professional focused on DevSecOps, CI/CD Systems, Test Automation, Containerized Software, and System Security. Skilled in Software Development, Cloud Computing, Kubernetes, Release Automation, and Provisioning/Configuration Management. Interested in a DevSecOps or Software Engineering positions.
 
 == Technology Skills
-#chiline()
+#dividerLine()
 
 - *Languages:* Golang, Python 3, Bash, C\#, C++, SQL, Java, Javascript, Dart.
 - *Technologies:* Kubernetes, Openshift, Docker, Ansible, Terraform, Git, MongoDB, PostgresSQL.
@@ -41,7 +36,7 @@ Computer Science and Cybersecurity professional focused on DevSecOps, CI/CD Syst
 - Familiar with RHEL7-8, CentOS, Ubuntu Server, and Debian.
 
 == Education & Certifications
-#chiline()
+#dividerLine()
 
 *Kubernetes Administration* #h(3pt)--#h(3pt) Linux Foundation #h(1fr) May 2020  \
 *CompTIA Security+* #h(5pt)--#h(5pt) CompTIA #h(1fr) September 2018  \
@@ -53,7 +48,7 @@ Computer Science and Cybersecurity professional focused on DevSecOps, CI/CD Syst
 *Associates of Science - Computer Science, Mathematics, Physics* #h(5pt)--#h(5pt) Crafton Hills College #h(1fr) March 2018 \
 
 == Employment
-#chiline()
+#dividerLine()
 
 *Lawrence Livermore National Laboratory* #h(3pt)--#h(3pt) DevOps Engineer #h(1fr) September 2021 -- Present \
 - Worked on large scale distributed Kubernetes compute platform to run large machine learning and statistical models.
@@ -74,14 +69,14 @@ Computer Science and Cybersecurity professional focused on DevSecOps, CI/CD Syst
 #pagebreak()
 
 == Honors & Awards
-#chiline()
+#dividerLine()
 
 National Science Foundation Scholarship For Service CyberCorps \
 Boy Scouts of America Eagle Scout Rank -- Redlands Troop 11 \
 FIRST Robotics Competition Regional Winner \
 
 == Projects
-#chiline()
+#dividerLine()
 
 *Virtual Reality “Secure Operations Center” (VR_SOC)*
 - Lead Engineer. Responsible for project management and team organization, as well as C\# programming, 3D modeling, and designing Virtual Reality interfaces and interactions.
@@ -98,10 +93,11 @@ FIRST Robotics Competition Regional Winner \
 - Teaching students how to safely fly quadcopters as well as building and programming drones
 - Performing research on drone automation, vision, and self-navigation technologies.
 
-#chiline()
+#dividerLine()
 #grid(
   columns: (1fr, 1fr),
-  gutter: 20pt,[
+  gutter: 20pt,
+  [
     = Competitions
     *Cal Poly Missa ITC* #h(1fr) 2020
     - Information Technology Competition
@@ -114,8 +110,7 @@ FIRST Robotics Competition Regional Winner \
     - iCTF competition at SFScon
     *DEFCON 2018* #h(1fr) 2018
     - OSINT iCTF competition at DefCon
-  ]
-  ,
+  ],
   align(left)[
     = Affiliations
     *InfoSec Club* #h(3pt)--#h(3pt) CSU San Bernardino
@@ -126,5 +121,5 @@ FIRST Robotics Competition Regional Winner \
     - (September 2018 -- June 2020)
     *FBI Infragard* #h(3pt)--#h(3pt) LA Chapter
     - (September 2018 - Present)
-  ]
+  ],
 )
